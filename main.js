@@ -1,6 +1,7 @@
-import {GameInit, startQuestions, gameSummary} from "./app.js"
+import {GameInit, startQuestions, gameSummary, CreatiArrRiddles} from "./app.js"
 
 
 const player = GameInit()
+CreatiArrRiddles()
 startQuestions(player)
 gameSummary(player)
